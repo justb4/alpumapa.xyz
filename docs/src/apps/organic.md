@@ -50,4 +50,4 @@ See [organicmaps.app website](https://organicmaps.app/)
 
 * https://en.wikipedia.org/wiki/Organic_Maps
 
-**Continue to the [Smart App EveryDoor](apps/everydoor.md)!**
+**Continue to the [Smart App EveryDoor](everydoor.md)!**
