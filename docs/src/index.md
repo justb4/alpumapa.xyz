@@ -2,16 +2,15 @@
 title: OpenStreetMap Workshop
 ---
  
-# alpumapa.xyz
+# Welcome to the OpenStreetMap Alpumapa Workshop!
 
 ![OpenTopoMap](assets/images/pres-front.jpg)
 
-## Welcome to the OpenStreetMap Alpumapa Workshop!
+[OpenStreetMap](https://openstreetmap.org), abbreviated as OSM from here, is a free, editable map of the entire world built 
+by volunteers and released under an open content license (ODbL). OSM is 
+sometimes called "The Wikipedia of Maps". 
 
-[OpenStreetMap](https://openstreetmap.org), abbreviated as OSM, is a free, editable map of the entire world built 
-by volunteers and released under an open content license (ODbL).
-
-OpenStreetMap encompasses at least three components:
+"OpenStreetMap" encompasses at least three components:
 
 - **The OSM Project**: methods, techniques, and tools (e.g., "Editors")
 - **The Data**: OSM data used to create maps, such as those on openstreetmap.org
@@ -22,12 +21,16 @@ OpenStreetMap encompasses at least three components:
 This is a basic workshop where you will learn:
 
 - The basics of OSM, its data model, and "tagging"
-- OSM organization: [OSMF](https://wiki.osmfoundation.org/wiki/Main_Page)
 - Navigating [openstreetmap.org](https://openstreetmap.org)
 - Creating an OSM account
-- An introduction to the iD editor
-- Working with smart OSM surveyor apps: [StreetComplete](https://streetcomplete.app/?lang=nl) and [EveryDoor](https://every-door.app/)
-- Getting acquainted with the OSM(-ES) community and the OSM Forum
+- Play with [Organic Maps](https://organicmaps.app/), one of the many OSM-driven user-apps for smartphones
+- Mapping with smart OSM surveyor apps: [StreetComplete](https://streetcomplete.app/?lang=nl) and [EveryDoor](https://every-door.app/)
+- Getting acquainted with the worldwide and Spanish OSM community and their communication channels
+
+All in due time, normally this workshop takes about 4 hours. The goal is to empower you 
+as a mapper in your village/region, hopefully as regular contributor. 
+
+A laptop is handy, but this entire workshop can be done with your smartphone.
 
 ## Course materials
 
@@ -41,12 +44,13 @@ We also utilize existing OSM tutorials such as:
 
 The [presentation slides](assets/presentations/osm-workshop-alpumapa-2025-v1.pdf) serve as the main guide. 
 This website and the slides can also be used as reference material or for self-study.
+
 # About This Workshop
 
-This workshop was developed initially and presented at the [OSGeo.nl FOSS4GNL 2023 in Middelburg](https://foss4g.nl), 
-and translated and extended for workshops within the Spanish Alpujarra region around the city of Válor.
+This workshop was developed initially and presented at the [OSGeo.nl FOSS4GNL 2023 Conference in Middelburg, The Netherlands](https://foss4g.nl), 
+and translated and extended for workshops within the Spanish Alpujarra region around the city of Válor by Just van den Broecke.
 
-We can imagine offering it at other places as well. Let us know if you're interested!  Also Spanish translations welcome!
+We can imagine offering it at other places as well. Let us know if you're interested!  Also: contributors and Spanish translations welcome!
 
 The license is Creative Commons CC0 1.0 Universal. This means you are free to use this material in compliance with the CC0 license.
 
@@ -60,7 +64,7 @@ If time permits, participants can explore more advanced topics, including:
 
 - Extracting data from OpenStreetMap using the OverPass (Turbo) API
 - Extracting data from OpenStreetMap in QGIS
-- Introduction to the JOSM Editor
+- Introduction to the ID and JOSM Editors
 - Quality assurance using tools like [Osmose](https://wiki.openstreetmap.org/wiki/Osmose)
 - Specific to the Netherlands: importing BAG and other foundational registrations into OSM
 

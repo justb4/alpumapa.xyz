@@ -86,4 +86,4 @@ We will only cover the basics of the iD Editor.
 * [OSM Wiki](https://wiki.openstreetmap.org/)  
 * [Start with OSM on LearnOSM](https://learnosm.org/en/beginner/start-osm/) (the English version is slightly more up-to-date)
 
-**Continue to the [Smart App EveryDoor](apps/everydoor.md)!**
+**Continue to [Organic Maps](apps/organic.md)!**
