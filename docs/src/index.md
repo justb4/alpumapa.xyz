@@ -48,7 +48,7 @@ We can imagine offering it at other places as well. Let us know if you're intere
 
 The license is Creative Commons CC0 1.0 Universal. This means you are free to use this material in compliance with the CC0 license.
 
-The content is [developed on GitHub](https://github.com/justb4/alpumapa.nl).  
+The content is [developed on GitHub](https://github.com/justb4/alpumapa.xyz).  
 If you notice any errors or have suggestions, you can submit them as issues or pull requests (PRs) on GitHub.
 
 ## Advanced Topics
