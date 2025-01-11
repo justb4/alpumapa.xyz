@@ -2,9 +2,11 @@
 title: OpenStreetMap Workshop
 ---
  
-# Alpumapa.xyz
+# alpumapa.xyz
 
-## Welcome to the OpenStreetMap Workshop!
+![OpenTopoMap](assets/images/pres-front.jpg)
+
+## Welcome to the OpenStreetMap Alpumapa Workshop!
 
 [OpenStreetMap](https://openstreetmap.org), abbreviated as OSM, is a free, editable map of the entire world built 
 by volunteers and released under an open content license (ODbL).
