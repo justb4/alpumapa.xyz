@@ -1,6 +1,6 @@
 site_name: OSM Workshop
 site_description: "This site contains material for an OpenStreetMap Workshop"
-site_author: Just van den Broecke Casper Kersten
+site_author: Just van den Broecke Casper Kersten (original)
 copyright: "&copy; 2025 osgeo.nl and Just van den Broecke"
 site_url: https://alpumapa.xyz
 repo_url: https://github.com/justb4/alpumapa.xyz
@@ -9,9 +9,10 @@ docs_dir: src
 nav:
     - Start: index.md
     - Intro: intro.md
+    - Organic Maps: apps/organic.md
     - EveryDoor App: apps/everydoor.md
     - StreetComplete App: apps/streetcomplete.md
-    - Geavanceerd:
+    - Advanced:
        - OverPass API: advanced/overpass-api.md
        - QGIS: advanced/qgis.md
        - JOSM Editor: advanced/josm.md

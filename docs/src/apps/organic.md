@@ -40,9 +40,9 @@ See [organicmaps.app website](https://organicmaps.app/)
 
 ## Usage
 
-* Best is to isntall while you are on a WIFI or have ample mobile data
+* Best is to install while you are on a WIFI or have ample mobile data
 * On first launch it will ask you to download the region you are in, e.g. Andalusia
-* From then on you can even use the app without mobile data on!
+* From then on you can even use the app without mobile data switched on!
 * First try to orient by pushing the "location" icon at lower right of screen
 * There are many advanced options, for some people Organic maps has replaced Google Maps
 
