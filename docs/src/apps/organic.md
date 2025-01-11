@@ -27,6 +27,13 @@ Source: [Organic Maps](https://organicmaps.app/) .
 
 ![Logo](../assets/images/organic-screen.jpg)
 
+## Navigation: Use case 
+
+Especially in rural areas, Organic Maps is much more powerful. See this case of pedestrian routing
+from one 'cortijo' (EV) to another (G&T). Only Organic Maps has all the info on tracks and even goat paths.
+
+![Logo](../assets/images/routing-google-vs-organic.jpg)
+
 ## Installation
 
 See [organicmaps.app website](https://organicmaps.app/)
@@ -37,7 +44,7 @@ See [organicmaps.app website](https://organicmaps.app/)
 * On first launch it will ask you to download the region you are in, e.g. Andalusia
 * From then on you can even use the app without mobile data on!
 * First try to orient by pushing the "location" icon at lower right of screen
-* There are many advanced options, for some people Organic maps has rplaced Google Maps
+* There are many advanced options, for some people Organic maps has replaced Google Maps
 
 ## More info
 
