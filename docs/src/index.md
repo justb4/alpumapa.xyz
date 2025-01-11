@@ -30,14 +30,14 @@ This is a basic workshop where you will learn:
 ## Course materials
 
 This workshop includes presentation slides, which you can find 
-[here as a PDF](assets/presentations/osm-workshop-foss4gnl-2023.pdf).
+[here as a PDF](assets/presentations/osm-workshop-alpumapa-2025-v1.pdf).
 
 We also utilize existing OSM tutorials such as:
 
 - [OSM Beginner's Guide Wiki](https://wiki.openstreetmap.org/wiki/Beginners%27_guide)
 - The [LearnOSM](https://learnosm.org/nl_NL/) website
 
-The [presentation slides](assets/presentations/osm-workshop-foss4gnl-2023.pdf) serve as the main guide. 
+The [presentation slides](assets/presentations/osm-workshop-alpumapa-2025-v1.pdf) serve as the main guide. 
 This website and the slides can also be used as reference material or for self-study.
 # About This Workshop
 
