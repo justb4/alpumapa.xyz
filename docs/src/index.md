@@ -22,10 +22,10 @@ This is a basic workshop where you will learn:
 
 - The basics of OSM, its data model, and "tagging"
 - Navigating [openstreetmap.org](https://openstreetmap.org)
-- Creating an OSM account
+- [Creating an OSM account](https://www.openstreetmap.org/user/new)
 - Play with [Organic Maps](https://organicmaps.app/), one of the many OSM-driven user-apps for smartphones
 - Mapping with smart OSM surveyor apps: [StreetComplete](https://streetcomplete.app/?lang=nl) and [EveryDoor](https://every-door.app/)
-- Getting acquainted with the worldwide and Spanish OSM community and their communication channels
+- Meet the [worldwide](https://community.openstreetmap.org/) and [Spanish OSM community](https://openstreetmap.es)
 
 All in due time, normally this workshop takes about 4 hours. The goal is to empower you 
 as a mapper in your village/region, hopefully as regular contributor. 
@@ -45,6 +45,17 @@ We also utilize existing OSM tutorials such as:
 The [presentation slides](assets/presentations/osm-workshop-alpumapa-2025-v1.pdf) serve as the main guide. 
 This website and the slides can also be used as reference material or for self-study.
 
+## Advanced Topics
+
+The focus of this workshop is primarily on the "smart apps."  
+If time permits, participants can explore more advanced topics, including:
+
+- Extracting data from OpenStreetMap using the OverPass (Turbo) API
+- Extracting data from OpenStreetMap in QGIS
+- Introduction to the ID and JOSM Editors
+- Quality assurance using tools like [Osmose](https://wiki.openstreetmap.org/wiki/Osmose)
+- Specific to [Spain: importing Buildings and Addresses](https://wiki.openstreetmap.org/wiki/Spanish_Cadastre/Buildings_import), "Edificios y Direcciones", from "Catastro"
+
 # About This Workshop
 
 This workshop was developed initially and presented at the [OSGeo.nl FOSS4GNL 2023 Conference in Middelburg, The Netherlands](https://foss4g.nl), 
@@ -57,16 +68,6 @@ The license is Creative Commons CC0 1.0 Universal. This means you are free to us
 The content is [developed on GitHub](https://github.com/justb4/alpumapa.xyz).  
 If you notice any errors or have suggestions, you can submit them as issues or pull requests (PRs) on GitHub.
 
-## Advanced Topics
-
-The focus of this workshop is primarily on the "smart apps."  
-If time permits, participants can explore more advanced topics, including:
-
-- Extracting data from OpenStreetMap using the OverPass (Turbo) API
-- Extracting data from OpenStreetMap in QGIS
-- Introduction to the ID and JOSM Editors
-- Quality assurance using tools like [Osmose](https://wiki.openstreetmap.org/wiki/Osmose)
-- Specific to the Netherlands: importing BAG and other foundational registrations into OSM
 
 ## Your Workshop Provider
 

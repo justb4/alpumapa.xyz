@@ -65,10 +65,13 @@ The background map will then change, usually to the most detailed aerial imagery
 We will only cover the basics of the iD Editor.
 !!! tip
 
-    You can add a custom background map in iD, for example from PDOK. Go to Layers and then "Custom..."  
+    You can add a custom background map in iD, for example from Catastre. Go to Layers and then "Custom..."  
     In a form, you can insert a symbolic URL, for example, a layer from Top10NL.  
-    Here’s an example for the Top10NL Road Section layer, which you can copy-paste:  
-    `https://service.pdok.nl/brt/top10nl/wms/v1_0?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image/png&TRANSPARENT=true&LAYERS=wegdeel&CRS={proj}&STYLES=&WIDTH={width}&HEIGHT={height}&BBOX={bbox}`
+    Here’s an example for the "Spanish Cadastral Parcel Web Map Service of the Directorate General of Cadastre according INSPIRE profile" Buildings Layer
+    layer, which you can copy-paste:  
+    `https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image/png&TRANSPARENT=true&LAYERS=BU.Building&CRS={proj}&STYLES=&WIDTH={width}&HEIGHT={height}&BBOX={bbox}`
+    But beware: Spain buildings and addresses import should be done via 
+    the [Buildings and Addresses import guidelines](https://wiki.openstreetmap.org/wiki/Spanish_Cadastre/Buildings_import)!
 
 ## Community
 
@@ -76,6 +79,8 @@ We will only cover the basics of the iD Editor.
 * [Spanish Community on OSM Forum](https://openstreetmap.es)
 * [Spain Landing Page on OSM Wiki](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a)
 * [OpenStreetMap Spain Telegram Group](https://www.t.me/OSMES)
+
+The main communication channel for the Spanish Community is its [open Telegram Group](https://www.t.me/OSMES).
 
 !!! tip
 
