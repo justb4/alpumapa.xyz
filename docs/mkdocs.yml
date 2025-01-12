@@ -30,7 +30,7 @@ theme:
     features:
         - navigation.sections
     favicon: assets/favicon.ico
-    logo: assets/images/osmnl-logo.png
+    logo: assets/images/osmes-logo.png
 
 plugins:
     - search
