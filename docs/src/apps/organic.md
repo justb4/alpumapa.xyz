@@ -3,6 +3,8 @@ title: OSM Editor - JOSM
 ---
 # Organic Maps
 
+![Logo](../assets/images/organic-logo.png)
+
 [Organic Maps](https://organicmaps.app/) is one of the many "end-user apps" that uses 100% OpenStreetMap.
 Other similar apps you may know: Wikiloc, AllTrails, Komoot, BackCountry Navigator, Locus, 
 OSMAnd and many more also use OSM data.
@@ -11,8 +13,6 @@ Beware: Waze, owned by Google, is not an OSM-based app!
 
 In daily usage Organic Maps is extremely handy to use as an outdoor (hiking, biking etc.) app. 
 Its navigation capabilities are excellent as well, even voice-powered. You can also load hiking routes (GPX files).
-
-![Logo](../assets/images/organic-logo.png)
 
 *[Organic Maps](https://organicmaps.app/) is a free Android & iOS offline maps app for travelers, 
 tourists, hikers, drivers and cyclists based on OpenStreetMap data created by the community. 
