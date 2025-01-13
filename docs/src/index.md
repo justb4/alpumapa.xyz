@@ -10,21 +10,7 @@ title: OpenStreetMap Workshop
 OSM is sometimes called "The Wikipedia of Maps". You may already use OSM
 via one of the many "apps" like Komoot, Wikiloc or AllTrails. 
 
-## Why this Workshop?
-
-OSM is important for regions
-like the Alpujarra since it can provide much more detail than for example Google Maps, 
-even for navigation/routing. See example below.
-
-![front](assets/images/routing.jpg)
-
-OSM can empower communities since they are able to map their surroundings instead of relying
-on commercial map providers. Also in cases of disasters like recently [DANA in Valencia](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a/Humanitario/DANA_2024), it is important
-to have accurate maps and/or be able to [jointly quickly map the region](https://tasks.hotosm.org/projects/17948).
-
-![front](assets/images/dana-hotosm.jpg)
-
-!!! Tip
+!!! Español
 
     Buscamos traduitores...OpenStreetMap, abreviado como "OSM", es un mapa gratuito y editable de todo el mundo creado 
     por voluntarios. OSM a veces se denomina "La Wikipedia de los mapas". Es posible que ya utilices OSM
@@ -39,6 +25,20 @@ to have accurate maps and/or be able to [jointly quickly map the region](https:/
     No se requieren conocimientos previos ni experiencia técnica.
     Después de una introducción, saldremos a mapear calles y negocios locales juntos.
     Ven con tu teléfono inteligente. Una computadora portátil es útil, pero no es necesaria.
+
+## Why this Workshop?
+
+OSM is important for regions
+like the Alpujarra since it can provide much more detail than for example Google Maps, 
+even for navigation/routing. See example below.
+
+![front](assets/images/routing.jpg)
+
+OSM can empower communities since they are able to map their surroundings instead of relying
+on commercial map providers. Also in cases of disasters like recently [DANA in Valencia](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a/Humanitario/DANA_2024), it is important
+to have accurate maps and/or be able to [jointly quickly map the region](https://tasks.hotosm.org/projects/17948).
+
+![front](assets/images/dana-hotosm.jpg)
 
 ## About this workshop
 
