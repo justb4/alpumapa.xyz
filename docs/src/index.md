@@ -13,18 +13,16 @@ via one of the many "apps" like Komoot, Wikiloc or AllTrails.
 ## Why this Workshop?
 
 OSM is important for regions
-like the Alpujarra since it can provide much more detail than for example Google Maps.
+like the Alpujarra since it can provide much more detail than for example Google Maps, 
+even for navigation/routing. See example below.
+
+![front](assets/images/routing.jpg)
+
 OSM can empower communities since they are able to map their surroundings instead of relying
 on commercial map providers. Also in cases of disasters like recently [DANA in Valencia](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a/Humanitario/DANA_2024), it is important
 to have accurate maps and/or be able to [jointly quickly map the region](https://tasks.hotosm.org/projects/17948).
 
 ![front](assets/images/dana-hotosm.jpg)
-
-In this workshop you will learn how to use
-the various "apps" to map your surroundings. 
-No prior knowledge nor technical background is required. 
-After an introduction we go out to map streets and local businesses together. 
-Come with your smartphone. A laptop is handy but not required.
 
 !!! Tip
 
@@ -44,7 +42,12 @@ Come with your smartphone. A laptop is handy but not required.
 
 ## About this workshop
 
-This is a basic workshop where you will learn:
+In this workshop you will learn how to use
+the various "apps" to map your surroundings. 
+No prior knowledge nor technical background is required. 
+After an introduction we go out to map streets and local businesses together. 
+Come with your smartphone. A laptop is handy but not required.
+What you will learn:
 
 - The basics of OSM, its data model, and "tagging"
 - Navigating [openstreetmap.org](https://openstreetmap.org)

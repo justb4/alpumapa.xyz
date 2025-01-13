@@ -33,7 +33,7 @@ Especially in rural areas, Organic Maps is much more powerful. See this case of 
 from one 'cortijo' (EV) to another (G&T). Only Organic Maps has all the info on tracks and even goat paths to create
 the most efficient route.
 
-![Logo](../assets/images/routing-google-vs-organic.jpg)
+![Logo](../assets/images/routing.jpg)
 
 ## Installation
 
