@@ -4,17 +4,41 @@ title: OpenStreetMap Workshop
  
 # Welcome to the OpenStreetMap Alpumapa Workshop!
 
-![OpenTopoMap](assets/images/pres-front.jpg)
+![front](assets/images/pres-front.jpg)
 
-[OpenStreetMap](https://openstreetmap.org), abbreviated as OSM from here, is a free, editable map of the entire world built 
-by volunteers and released under an open content license (ODbL). OSM is 
-sometimes called "The Wikipedia of Maps". 
+[OpenStreetMap](https://openstreetmap.org), abbreviated as "OSM", is a free, editable map of the entire world built by volunteers. 
+OSM is sometimes called "The Wikipedia of Maps". You may already use OSM
+via one of the many "apps" like Komoot, Wikiloc or AllTrails. 
 
-"OpenStreetMap" encompasses at least three components:
+## Why this Workshop?
 
-- **The OSM Project**: methods, techniques, and tools (e.g., "Editors")
-- **The Data**: OSM data used to create maps, such as those on openstreetmap.org
-- **The Community**: the people, the "OSM Community"
+OSM is important for regions
+like the Alpujarra since it can provide much more detail than for example Google Maps.
+OSM can empower communities since they are able to map their surroundings instead of relying
+on commercial map providers. Also in cases of disasters like recently [DANA in Valencia](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a/Humanitario/DANA_2024), it is important
+to have accurate maps and/or be able to [jointly quickly map the region](https://tasks.hotosm.org/projects/17948).
+
+In this workshop you will learn how to use
+the various "apps" to map your surroundings. 
+No prior knowledge nor technical background is required. 
+After an introduction we go out to map streets and local businesses together. 
+Come with your smartphone. A laptop is handy but not required.
+
+!!! Tip
+
+    Buscamos traduitores...OpenStreetMap, abreviado como "OSM", es un mapa gratuito y editable de todo el mundo creado 
+    por voluntarios. OSM a veces se denomina "La Wikipedia de los mapas". Es posible que ya utilices OSM
+    a través de alguna de las muchas "aplicaciones" como Komoot, Wikiloc o AllTrails.
+    
+    OSM es importante para regiones como la Alpujarra, ya que puede proporcionar muchos más detalles que, por ejemplo, 
+    Google Maps. OSM puede empoderar a las comunidades, ya que pueden mapear sus alrededores en lugar de depender
+    de proveedores de mapas comerciales. También en casos de desastres como el reciente DANA en Valencia, es importante
+    tener mapas precisos y/o poder mapear rápidamente la región juntos.
+    
+    En este taller aprenderás a usar las distintas "aplicaciones" para mapear tus alrededores.
+    No se requieren conocimientos previos ni experiencia técnica.
+    Después de una introducción, saldremos a mapear calles y negocios locales juntos.
+    Ven con tu teléfono inteligente. Una computadora portátil es útil, pero no es necesaria.
 
 ## About this workshop
 
