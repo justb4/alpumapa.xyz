@@ -1,6 +1,7 @@
 ---
 title: Intro - OSM Basics
 ---
+
 # OSM Basics
 
 This section explains the basic principles of OSM.
@@ -56,13 +57,26 @@ Registration is easy via [www.openstreetmap.org/user/new](https://www.openstreet
 You don’t necessarily have to use your real name as your username, also known as an "OSM handle." This can be changed later.  
 Additionally, your home location doesn’t need to be your actual address. That, too, can be adjusted later.
 
-## iD Editor
+![signup-osm-org](assets/images/signup-osm-org.jpg)
 
-This is the default editor available on openstreetmap.org.  
+## Navigating openstreetmap.org
+
+This is the main website. When you have logged in, you will be on the default map with some 
+icons and menus as explained in the image below. We encourage you to explore yourself!
+
+![navigate-osm-org](assets/images/navigate-osm-org.jpg)
+
+## Edit with iD Editor (browser)
+
+This, "iD", is the default editor available on openstreetmap.org.  
 When you [log in](https://www.openstreetmap.org/login), you’ll see an 'Edit' button in the top left corner. Clicking this will open the iD Editor.  
-The background map will then change, usually to the most detailed aerial imagery. In the Netherlands, this is the PDOK aerial imagery with 8cm resolution.
+The background map will then change, usually to the most detailed aerial imagery. 
+In Spain, this is the [PNOA aerial imagery from IGN](https://pnoa.ign.es/) with high resolution. [ign.es also has a topographic map](https://www.ign.es/web/ign/portal/) but this is outdated!
+
+![edit-osm-org](assets/images/edit-osm-org.jpg)
 
 We will only cover the basics of the iD Editor.
+
 !!! tip
 
     You can add a custom background map in iD, for example from Catastre. Go to Layers and then "Custom..."  
