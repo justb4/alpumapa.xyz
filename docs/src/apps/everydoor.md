@@ -25,7 +25,9 @@ Ilya was also a guest in [The Great Geo Show Episode 15 - OpenStreetMap Special]
 ## Usage
 
 Using the app is mostly self-explanatory.  
-You need a working OSM account. You can enter it via the menu in the top-left corner of the main screen by opening the Configuration screen. At the top, you will see "OSM Account." The other settings are currently not relevant.
+You need a working OSM account. 
+You can enter it via the menu in the top-left corner of the main screen by opening the Configuration screen. 
+At the top, you will see "OSM Account." The other settings are currently not relevant.
 
 There is a main screen for each activity, depending on which category of objects you want to map. There are four "Modes" in total, which you can switch between using the buttons in the bottom menu, as shown below. Additionally, you can always download data from OSM using the button on the far left. If you’ve made changes, the arrow on this button will point upwards. In that case, you can use this button to upload all your changes to OSM. It’s best to save changes and send them as a single "changeset" to OSM.
 
@@ -34,9 +36,12 @@ There is a main screen for each activity, depending on which category of objects
 <figcaption>EveryDoor: Bottom Menu</figcaption>
 </figure>
 
+Once you start mapping the "Download Button" will point upward. This means there are data changes you can directly upload to OSM.
+NB: you need to do this explicitly, it does not happen by itself (like with StreetComplete).
+
 ### Screen 1 - Facilities - Micromapping Mode
 
-For example, street furniture, trees, etc. Use the `+` button to add items at the location of the black marker.
+For example, street furniture, trees, etc. Use the `+` button to add items at the location of the black marker. Shift the screen to move the black marker in place. 
 
 <figure markdown>
 ![EveryDoor: Micromapping Screen](../assets/images/everydoor-micromapping-screen.png){ data-title="EveryDoor: Micromapping Screen" data-description="EveryDoor: Micromapping Screen" }
@@ -54,7 +59,8 @@ Each number on the map corresponds to a POI in the list. Use the `+` button to a
 
 ### Screen 3 - Addresses and Buildings Mode
 
-You can edit tags for buildings and addresses. Tap on an address or building to edit it, or use the "House" button on the bottom left or the "Address" button on the bottom right.  
+You can edit tags for buildings and addresses. Tap on an address or building to edit it, or use the "House" button on the bottom left or the "Address" 
+button on the bottom right.  
 Use the black marker to select the address/building. This has the same effect as tapping.
 
 <figure markdown>

@@ -66,7 +66,7 @@ We will only cover the basics of the iD Editor.
 !!! tip
 
     You can add a custom background map in iD, for example from Catastre. Go to Layers and then "Custom..."  
-    In a form, you can insert a symbolic URL, for example, a layer from Top10NL.  
+    In a form, you can insert a symbolic URL, for example, a layer from Cadastral maps.  
     Here’s an example for the "Spanish Cadastral Parcel Web Map Service of the Directorate General of Cadastre according INSPIRE profile" Buildings Layer
     layer, which you can copy-paste:  
     `https://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx?REQUEST=GetMap&SERVICE=WMS&VERSION=1.3.0&FORMAT=image/png&TRANSPARENT=true&LAYERS=BU.Building&CRS={proj}&STYLES=&WIDTH={width}&HEIGHT={height}&BBOX={bbox}`
@@ -85,6 +85,15 @@ The main communication channel for the Spanish Community is its [open Telegram G
 !!! tip
 
     With your OSM account, you automatically have access to the OSM Forum.
+
+## Explore Mapping Results
+
+There are several ways to find out what you and others have added to OSM. Here are two sites you can explore:
+
+- [simon04.dev.openstreetmap.org/whodidit](https://simon04.dev.openstreetmap.org/whodidit/?zoom=13&lat=37.00356&lon=-3.07891&layers=BTT&age=1%20month) - click on rectangles
+- [overpass-api.de/achavi](https://overpass-api.de/achavi/?zoom=16&lat=36.96261&lon=-3.05341&layers=0000B00TTTTT) (enter a date back in time)
+
+We will look at these after we get back.
 
 ## More Information
 

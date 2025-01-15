@@ -8,7 +8,7 @@ title: OpenStreetMap Workshop
 
 [OpenStreetMap](https://openstreetmap.org), abbreviated as "OSM", is a free, editable map of the entire world built by volunteers. 
 OSM is sometimes called "The Wikipedia of Maps". You may already use OSM
-via one of the many "apps" like Komoot, Wikiloc or AllTrails. 
+via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails. 
 
 !!! Español
 
