@@ -47,8 +47,9 @@ Instead of models and schemas with attributes, like in GML, OSM uses **Tagging**
 
     The TagInfo website/app at [taginfo.openstreetmap.org](https://taginfo.openstreetmap.org/) provides detailed information about the use of tags.  
     The tags used specifically in the Netherlands can be found at [taginfo.geofabrik.de/europe/netherlands](https://taginfo.geofabrik.de/europe/netherlands).  
-    Specific tagging conventions for the Netherlands: [Wiki NL:Kaartelementen](https://wiki.openstreetmap.org/wiki/NL:Kaartelementen).  
-    Every tag, whether it's a key or a key=value, can be found on the OSM Wiki. For example, [amenity=hospital](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dhospital).
+    But best is to search on the [OSM Wiki](https://wiki.openstreetmap.org/wiki/Main_Page).  
+    Every tag, whether it's a key or a key=value, can be found on the OSM Wiki. 
+    For example, typing in 'market' will lead you to: [amenity=marketplace](https://wiki.openstreetmap.org/wiki/Tag:amenity%marketplace).
 
 ## Creating an Account
 
