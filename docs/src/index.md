@@ -4,7 +4,7 @@ title: OpenStreetMap Workshop
  
 # Welcome to the OpenStreetMap Alpumapa Workshop!
 
-![front](assets/images/pres-front.jpg)
+![when](assets/images/workshop-flyer.jpg)
 
 [OpenStreetMap](https://openstreetmap.org), abbreviated as "OSM", is a free, editable map of the entire world built by volunteers. 
 OSM is sometimes called "The Wikipedia of Maps". You may already use OSM
@@ -32,8 +32,6 @@ For now every Thursday 10-12 AM in [Co-Workspace Ugíjar](https://www.openstreet
 No need to register, just drop by! 
 
 Info/contact: osm@justobjects.nl and [Ayuntamiento de Ugíjar](https://www.ugijar.es/inicio/) (contact: Celia Rivas López)
-
-![when](assets/images/workshop-flyer.jpg)
 
 ## Why this Workshop?
 
