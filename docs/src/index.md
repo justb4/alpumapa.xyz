@@ -26,6 +26,15 @@ via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails.
     Después de una introducción, saldremos a mapear calles y negocios locales juntos.
     Ven con tu teléfono inteligente. Una computadora portátil es útil, pero no es necesaria.
 
+## When is the Workshop?
+
+For now every Thursday 10-12 AM in [Co-Workspace Ugíjar](https://www.openstreetmap.org/node/12506874146).
+No need to register, just drop by! 
+
+Info/contact: osm@justobjects.nl and [Ayuntamiento de Ugíjar](https://www.ugijar.es/inicio/) (contact: Celia Rivas López)
+
+![when](assets/images/workshop-flyer.jpg)
+
 ## Why this Workshop?
 
 OSM is important for regions
@@ -37,6 +46,7 @@ even for navigation/routing. See example below.
 OSM can empower communities since they are able to map their surroundings instead of relying
 on commercial map providers. Also in cases of disasters like recently [DANA in Valencia](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a/Humanitario/DANA_2024), it is important
 to have accurate maps and/or be able to [jointly quickly map the region](https://tasks.hotosm.org/projects/17948).
+OSM also fits in the current [Public Stack movement for 'Big Tech' alternatives](https://publicstack.net/alternatives/).
 
 ![front](assets/images/dana-hotosm.jpg)
 

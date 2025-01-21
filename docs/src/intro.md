@@ -91,9 +91,10 @@ We will only cover the basics of the iD Editor.
 ## Community
 
 * [OSM Forum](https://community.openstreetmap.org)
-* [Spanish Community on OSM Forum](https://openstreetmap.es)
+* [Spanish Community on OSM Forum](https://community.openstreetmap.org/c/communities/es/51)
 * [Spain Landing Page on OSM Wiki](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a)
 * [OpenStreetMap Spain Telegram Group](https://www.t.me/OSMES)
+* [Asociación OpenStreetMap España](https://openstreetmap.es)
 
 The main communication channel for the Spanish Community is its [open Telegram Group](https://www.t.me/OSMES).
 
