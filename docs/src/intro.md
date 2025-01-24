@@ -42,11 +42,12 @@ Instead of models and schemas with attributes, like in GML, OSM uses **Tagging**
 * Some OSM editors, like iD, use presets for Tags to assist users.  
 * See the [detailed explanation](https://wiki.openstreetmap.org/wiki/Tags).  
 * OSM implicitly recognizes [Map Features](https://wiki.openstreetmap.org/wiki/Map_features) through tagging.
+* Consult [Directrices de etiquetado](https://wiki.openstreetmap.org/wiki/ES:Directrices_de_etiquetado_espa%C3%B1olas) for Spain-specific mapping rules
 
-!!! tip
+* !!! tip
 
     The TagInfo website/app at [taginfo.openstreetmap.org](https://taginfo.openstreetmap.org/) provides detailed information about the use of tags.  
-    The tags used specifically in the Netherlands can be found at [taginfo.geofabrik.de/europe/netherlands](https://taginfo.geofabrik.de/europe/netherlands).  
+    The tags used specifically in Spain can be found at [taginfo.geofabrik.de/europe/spain](https://taginfo.geofabrik.de/europe/spain).  
     But best is to search on the [OSM Wiki](https://wiki.openstreetmap.org/wiki/Main_Page).  
     Every tag, whether it's a key or a key=value, can be found on the OSM Wiki. 
     For example, typing in 'market' will lead you to: [amenity=marketplace](https://wiki.openstreetmap.org/wiki/Tag:amenity%marketplace).
@@ -95,6 +96,7 @@ We will only cover the basics of the iD Editor.
 * [Spain Landing Page on OSM Wiki](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a)
 * [OpenStreetMap Spain Telegram Group](https://www.t.me/OSMES)
 * [Asociación OpenStreetMap España](https://openstreetmap.es)
+* [ideandalucia.es](https://www.ideandalucia.es/portal/) - many nice maps of Andalucía!
 
 The main communication channel for the Spanish Community is its [open Telegram Group](https://www.t.me/OSMES).
 
