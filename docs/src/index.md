@@ -4,7 +4,10 @@ title: OpenStreetMap Workshop
  
 # Welcome to the OpenStreetMap Alpumapa Workshop!
 
-![when](assets/images/workshop-flyer.jpg)
+Next: Jan 30, 2025 - 10AM. 
+Details on [OpenStreetMap Calendar](https://osmcal.org/event/3417/).
+
+![when](assets/images/workshop-flyer-fb.jpg)
 
 [OpenStreetMap](https://openstreetmap.org), abbreviated as "OSM", is a free, editable map of the entire world built by volunteers. 
 OSM is sometimes called "The Wikipedia of Maps". You may already use OSM
