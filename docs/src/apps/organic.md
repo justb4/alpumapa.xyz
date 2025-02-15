@@ -85,6 +85,10 @@ To export:
 * now you can share via your favorite medium, like Dropbox, even by email, or to a local file on your phone
 * Tip: a handy way to share to yourself quickly: share via WhatsApp to yourself and then open WhatsApp in your browser on your computer/laptop
 
+## Edit OSM with your GPS trace
+
+See [section on editing OSM with GPS traces](../advanced/gps.md). This includes a video tutorial by Just!
+
 ## More info
 
 * https://en.wikipedia.org/wiki/Organic_Maps

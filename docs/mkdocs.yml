@@ -14,6 +14,7 @@ nav:
     - EveryDoor App: apps/everydoor.md
     - StreetComplete App: apps/streetcomplete.md
     - Advanced:
+       - GPS Traces: advanced/gps.md
        - OverPass API: advanced/overpass-api.md
        - QGIS: advanced/qgis.md
        - JOSM Editor: advanced/josm.md
