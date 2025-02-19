@@ -4,7 +4,7 @@ title: OpenStreetMap Workshop
  
 # Welcome to the OpenStreetMap Alpumapa Workshop!
 
-Next: Jan 30, 2025 - 10AM. 
+Workshop was provided on Jan 30, 2025 - 10AM. 
 Details on [OpenStreetMap Calendar](https://osmcal.org/event/3417/).
 
 ![when](assets/images/workshop-flyer-fb.jpg)
@@ -31,10 +31,9 @@ via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails.
 
 ## When is the Workshop?
 
-For now every Thursday 10-12 AM in [Co-Workspace Ugíjar](https://www.openstreetmap.org/node/12506874146).
-No need to register, just drop by! 
+For now on demand.
 
-Info/contact: osm@justobjects.nl and [Ayuntamiento de Ugíjar](https://www.ugijar.es/inicio/) (contact: Celia Rivas López)
+Info/contact: osm@justobjects.nl and [Ayuntamiento de Ugíjar](https://www.ugijar.es/inicio/).
 
 ## Why this Workshop?
 
@@ -47,9 +46,12 @@ even for navigation/routing. See example below.
 OSM can empower communities since they are able to map their surroundings instead of relying
 on commercial map providers. Also in cases of disasters like recently [DANA in Valencia](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a/Humanitario/DANA_2024), it is important
 to have accurate maps and/or be able to [jointly quickly map the region](https://tasks.hotosm.org/projects/17948).
-OSM also fits in the current [Public Stack movement for 'Big Tech' alternatives](https://publicstack.net/alternatives/).
 
 ![front](assets/images/dana-hotosm.jpg)
+
+OSM also fits in the current [Public Stack movement for 'Big Tech' alternatives](https://publicstack.net/alternatives/). Keyword here is **Empowerment**.
+
+![front](assets/images/empowerment.jpg)
 
 ## About this workshop
 
