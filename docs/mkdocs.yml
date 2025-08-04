@@ -9,6 +9,7 @@ docs_dir: src
 nav:
     - Start: index.md
     - Intro: intro.md
+    - When: when.md
     - Presentation: presentation.md
     - Organic Maps: apps/organic.md
     - EveryDoor App: apps/everydoor.md

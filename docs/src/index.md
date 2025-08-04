@@ -2,16 +2,13 @@
 title: OpenStreetMap Workshop
 ---
  
-# Welcome to the OpenStreetMap Alpumapa Workshop!
-
-Workshop was provided on Jan 30, 2025 - 10AM. 
-Details on [OpenStreetMap Calendar](https://osmcal.org/event/3417/).
-
-![when](assets/images/workshop-flyer-fb.jpg)
+# Welcome to the OpenStreetMap Workshop!
 
 [OpenStreetMap](https://openstreetmap.org), abbreviated as "OSM", is a free, editable map of the entire world built by volunteers. 
 OSM is sometimes called "The Wikipedia of Maps". You may already use OSM
 via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails. 
+
+![ugijar-2025](assets/images/ugijar-2025-composite.jpg)
 
 !!! Español
 
@@ -31,14 +28,12 @@ via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails.
 
 ## When is the Workshop?
 
-For now on demand.
-
-Info/contact: osm@justobjects.nl and [Ayuntamiento de Ugíjar](https://www.ugijar.es/inicio/).
+For now on demand. See ['when' section](when.md)
 
 ## Why this Workshop?
 
 OSM is important for regions
-like the Alpujarra since it can provide much more detail than for example Google Maps, 
+like the Alpujarra (and the world in general!) since it can provide much more detail than for example Google Maps, 
 even for navigation/routing. See example below.
 
 ![front](assets/images/routing.jpg)
@@ -56,7 +51,7 @@ OSM also fits in the current [Public Stack movement for 'Big Tech' alternatives]
 ## About this workshop
 
 In this workshop you will learn how to use
-the various "apps" to map your surroundings. 
+the various "mobile apps" to map your surroundings. 
 No prior knowledge nor technical background is required. 
 After an introduction we go out to map streets and local businesses together. 
 Come with your smartphone. A laptop is handy but not required.
