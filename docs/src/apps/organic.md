@@ -1,5 +1,5 @@
 ---
-title: OSM Editor - JOSM
+title: Mobile Maps App - Organic Maps
 ---
 # Organic Maps
 

@@ -25,6 +25,8 @@ Think of points, lines, areas, and combinations thereof.
 These geometries are called **Elements** in OSM.  
 Each Element is assigned properties, sometimes referred to as metadata, in the form of **Tags**.
 
+![osm-structure-elements](assets/images/osm-structure-elements.jpg)
+
 The Elements in OSM terminology are:
 
 * **[Node](https://wiki.openstreetmap.org/wiki/Node)** (think: points)  
@@ -35,6 +37,8 @@ The Elements in OSM terminology are:
 
 Instead of models and schemas with attributes, like in GML, OSM uses **Tagging**:
 
+![osm-structure-tags](assets/images/osm-structure-tags.jpg)
+
 * Each Element (see above) is described with one or more **Tags**.  
 * A Tag is a `key=value` pair.  
 * For example, for a Way: `highway=residential` or for a parking lot (Closed Way): `amenity=parking`.  
@@ -44,7 +48,7 @@ Instead of models and schemas with attributes, like in GML, OSM uses **Tagging**
 * OSM implicitly recognizes [Map Features](https://wiki.openstreetmap.org/wiki/Map_features) through tagging.
 * Consult [Directrices de etiquetado](https://wiki.openstreetmap.org/wiki/ES:Directrices_de_etiquetado_espa%C3%B1olas) for Spain-specific mapping rules
 
-* !!! tip
+!!! tip
 
     The TagInfo website/app at [taginfo.openstreetmap.org](https://taginfo.openstreetmap.org/) provides detailed information about the use of tags.  
     The tags used specifically in Spain can be found at [taginfo.geofabrik.de/europe/spain](https://taginfo.geofabrik.de/europe/spain).  

@@ -6,7 +6,8 @@ title: App - EveryDoor
 
 ![Logo](../assets/images/everydoor-logo.png)
 
-[EveryDoor](https://every-door.app/) is an Open Source mobile phone editor designed for adding or modifying "Points of Interest" (POIs), such as shops and other facilities ("amenities"), as well as house numbers in a very user-friendly way for OpenStreetMap.
+[EveryDoor](https://every-door.app/) is an Open Source mobile phone editor designed for adding or modifying "Points of Interest" (POIs), 
+such as shops and other facilities ("amenities"), as well as house numbers in a very user-friendly way for OpenStreetMap.
 
 This app is specifically designed to help users keep facilities ("amenities") and shops up-to-date and to perform so-called "micro-mapping." This includes mapping details such as trees, information boards, trash bins, and fire hydrants. Not all these objects will appear on standard OSM maps, but since they are added to the large OSM database, they can be used to develop specialized maps or apps.
 
