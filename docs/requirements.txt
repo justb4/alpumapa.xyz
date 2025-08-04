@@ -2,3 +2,4 @@ mkdocs
 mkdocs-material
 mkdocs-video
 mkdocs-glightbox
+mkdocs-static-i18n

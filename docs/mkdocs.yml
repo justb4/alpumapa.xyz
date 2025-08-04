@@ -11,7 +11,7 @@ nav:
     - Intro: intro.md
     - When: when.md
     - Presentation: presentation.md
-    - Organic Maps: apps/organic.md
+    - CoMaps: apps/comaps.md
     - EveryDoor App: apps/everydoor.md
     - StreetComplete App: apps/streetcomplete.md
     - Advanced:

@@ -60,7 +60,7 @@ What you will learn:
 - The basics of OSM, its data model, and "tagging"
 - Navigating [openstreetmap.org](https://openstreetmap.org)
 - [Creating an OSM account](https://www.openstreetmap.org/user/new)
-- Play with [Organic Maps](https://organicmaps.app/), one of the many OSM-driven user-apps for smartphones
+- Play with [CoMaps](https://www.comaps.app/), one of the many OSM-driven user-apps for smartphones
 - Mapping with smart OSM surveyor apps: [StreetComplete](https://streetcomplete.app/?lang=nl) and [EveryDoor](https://every-door.app/)
 - Meet the [worldwide](https://community.openstreetmap.org/) and [Spanish OSM community](https://openstreetmap.es)
 

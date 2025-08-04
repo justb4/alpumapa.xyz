@@ -122,4 +122,4 @@ We will look at these after we get back.
 * [OSM Wiki](https://wiki.openstreetmap.org/)  
 * [Start with OSM on LearnOSM](https://learnosm.org/en/beginner/start-osm/) (the English version is slightly more up-to-date)
 
-**Continue to [Organic Maps](apps/organic.md)!**
+**Continue to [CoMaps](apps/comaps.md)!**

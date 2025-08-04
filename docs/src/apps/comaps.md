@@ -1,44 +1,42 @@
 ---
-title: Mobile Maps App - Organic Maps
+title: Mobile Maps App - CoMaps
 ---
-# Organic Maps
+# CoMaps
 
-![Logo](../assets/images/organic-logo.png)
+![Logo](../assets/images/comaps-logo.jpg)
 
-[Organic Maps](https://organicmaps.app/) is one of the many "end-user apps" that uses 100% OpenStreetMap.
+[CoMaps](https://www.comaps.app/) is one of the many "end-user apps" that uses 100% OpenStreetMap.
 Other similar apps you may know: Wikiloc, AllTrails, Komoot, BackCountry Navigator, Locus, 
 OSMAnd and many more also use OSM data.
 
 Beware: Waze, owned by Google, is not an OSM-based app!
 
-In daily usage Organic Maps is extremely handy to use as an outdoor (hiking, biking etc.) app. 
+In daily usage CoMaps is extremely handy to use as an outdoor (hiking, biking etc.) app. 
 Its navigation capabilities are excellent as well, even voice-powered. You can also load hiking routes (GPX files) and
 even record your own traces. 
 
-*[Organic Maps](https://organicmaps.app/) is a free Android & iOS offline maps app for travelers, 
+*[CoMaps](https://www.comaps.app/) is a free Android & iOS offline maps app for travelers, 
 tourists, hikers, drivers and cyclists based on OpenStreetMap data created by the community. 
-It is a privacy-focused, open-source fork of Maps.me app (previously known as MapsWithMe), 
-maintained by the same people who created MapsWithMe in 2011.*
+It is a privacy-focused, [community-led fork of Organic Maps](https://en.wikipedia.org/wiki/CoMaps) which in turn
+is open-source fork of Maps.me app (previously known as MapsWithMe)*
 
-*Organic Maps is one of the few applications nowadays that supports 100% of features without an active Internet connection. 
-Install Organic Maps, download maps, throw away your SIM card, and go for a weeklong trip on a single battery charge without any 
-byte sent to the network.*
-
-Source: [Organic Maps](https://organicmaps.app/) .
+*CoMaps is one of the few applications that supports 100% of features without an active Internet connection. 
+Install CoMaps, download maps, throw away your SIM card, and go for a week-long trip on a single battery charge without any 
+byte received from the network.*
 
 ![Logo](../assets/images/organic-screen.jpg)
 
 ## Navigation: Use case 
 
-Especially in rural areas, Organic Maps is much more powerful. See this case of pedestrian routing
-from one 'cortijo' (EV) to another (G&T). Only Organic Maps has all the info on tracks and even goat paths to create
+Especially in rural areas, CoMaps is much more powerful. See this case of pedestrian routing
+from one 'cortijo' (EV) to another (G&T). Only CoMaps has all the info on unpaved tracks and even goat paths to create
 the most efficient route.
 
-![Logo](../assets/images/organic-routing.jpg)
+![Logo](../assets/images/routing.jpg)
 
 ## Installation
 
-See [organicmaps.app website](https://organicmaps.app/)
+See [CoMaps website](https://www.comaps.app/). 
 
 ## Usage
 
@@ -46,13 +44,13 @@ See [organicmaps.app website](https://organicmaps.app/)
 * On first launch it will ask you to download the region you are in, e.g. Andalusia
 * From then on you can even use the app without mobile data switched on!
 * First try to orient by pushing the "location" icon at lower right of screen
-* There are many advanced options, for some people Organic maps has replaced Google Maps
+* There are many advanced options, for some people CoMaps has replaced Google Maps
 
 ## Recording Tracks
 
 A very powerful feature is that you can record your own movements while hiking, cycling etc. 
 This is called "track recording". You can even collect your own Points of Interest, called "Bookmarks" while recording. 
-To keep your track recordings organized Organic Maps has a concept of "Lists". A single List
+To keep your track recordings organized CoMaps has a concept of "Lists". A single List
 is basically like a "folder" in which you store your tracks and bookmarks of interest. You will find
 your Lists via the bottom menu by pressing the "star" icon. Best is to create a fresh new List before recording your track.
 Tracks and Bookmarks are always recorded in the "current List", which is the one on the top.
@@ -63,7 +61,7 @@ There's a YouTube video which shows the basics of track recording and dealing wi
 
 To start/stop recording follow these steps:
 
-![OM Record](../assets/images/organic-recording.jpg)
+![OM Record](../assets/images/comaps-recording.jpg)
 
 * tap the menu item at the far-right on bottom
 * this brings up pop-up menu with an item that says "Record Track"
@@ -74,7 +72,7 @@ To start/stop recording follow these steps:
 
 To export:
 
-![OM Export](../assets/images/organic-export.jpg)
+![OM Export](../assets/images/comaps-export.jpg)
 
 * press the "star" menu icon in the bottom
 * this will show all yout Lists
@@ -91,6 +89,6 @@ See [section on editing OSM with GPS traces](../advanced/gps.md). This includes 
 
 ## More info
 
-* https://en.wikipedia.org/wiki/Organic_Maps
+* https://en.wikipedia.org/wiki/CoMaps
 
 **Continue to the [Smart App EveryDoor](everydoor.md)!**
