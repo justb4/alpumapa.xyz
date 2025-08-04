@@ -72,14 +72,14 @@ A laptop is handy, but this entire workshop can be done with your smartphone.
 ## Course materials
 
 This workshop includes presentation slides, which you can find 
-[here as a PDF](assets/presentations/osm-workshop-alpumapa-2025-v1.pdf).
+[here as a PDF](presentation.md).
 
 We also utilize existing OSM tutorials such as:
 
 - [OSM Beginner's Guide Wiki](https://wiki.openstreetmap.org/wiki/Beginners%27_guide)
 - The [LearnOSM](https://learnosm.org/nl_NL/) website
 
-The [presentation slides](assets/presentations/osm-workshop-alpumapa-2025-v1.pdf) serve as the main guide. 
+The [presentation slides](presentation.md) serve as the main guide. 
 This website and the slides can also be used as reference material or for self-study.
 
 ## Advanced Topics
