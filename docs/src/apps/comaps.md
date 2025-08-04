@@ -32,7 +32,7 @@ Especially in rural areas, CoMaps is much more powerful. See this case of pedest
 from one 'cortijo' (EV) to another (G&T). Only CoMaps has all the info on unpaved tracks and even goat paths to create
 the most efficient route.
 
-![Logo](../assets/images/routing.jpg)
+![Logo](../assets/images/comaps-routing.jpg)
 
 ## Installation
 

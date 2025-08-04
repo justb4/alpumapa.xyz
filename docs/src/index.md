@@ -36,7 +36,7 @@ OSM is important for regions
 like the Alpujarra (and the world in general!) since it can provide much more detail than for example Google Maps, 
 even for navigation/routing. See example below.
 
-![front](assets/images/routing.jpg)
+![front](assets/images/comaps-routing.jpg)
 
 OSM can empower communities since they are able to map their surroundings instead of relying
 on commercial map providers. Also in cases of disasters like recently [DANA in Valencia](https://wiki.openstreetmap.org/wiki/ES:Espa%C3%B1a/Humanitario/DANA_2024), it is important
