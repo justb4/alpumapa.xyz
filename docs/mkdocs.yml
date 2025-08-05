@@ -70,6 +70,12 @@ plugins:
                 CoMaps: CoMaps
                 EveryDoor App: EveryDoor App
                 StreetComplete App: StreetComplete App
+                Advanced: Avanzado
+                GPS Traces: Rastros GPS
+                OverPass API: OverPass API
+                QGIS: QGIS
+                JOSM Editor: JOSM Editor
+
     - print-site
 
 markdown_extensions:

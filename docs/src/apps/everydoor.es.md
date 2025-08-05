@@ -2,92 +2,101 @@
 title: App - EveryDoor
 ---
 
-# EveryDoor App
+# Aplicación EveryDoor
 
 ![Logo](../assets/images/everydoor-logo.png)
 
-[EveryDoor](https://every-door.app/) is an Open Source mobile phone editor designed for adding or modifying "Points of Interest" (POIs), 
-such as shops and other facilities ("amenities"), as well as house numbers in a very user-friendly way for OpenStreetMap.
+[EveryDoor](https://every-door.app/) es un editor móvil de código abierto diseñado para añadir o modificar "Puntos de Interés" (POIs), 
+como tiendas y otros servicios ("amenities"), así como números de calle, de una manera muy fácil de usar para OpenStreetMap.
 
-This app is specifically designed to help users keep facilities ("amenities") and shops up-to-date and to perform so-called "micro-mapping." This includes mapping details such as trees, information boards, trash bins, and fire hydrants. Not all these objects will appear on standard OSM maps, but since they are added to the large OSM database, they can be used to develop specialized maps or apps.
+Esta aplicación está especialmente pensada para ayudar a los usuarios a mantener actualizados los servicios ("amenities") y tiendas, 
+y para realizar el llamado "micro-mapeo". Esto incluye detalles como árboles, paneles informativos, papeleras e hidrantes.  
+No todos estos objetos aparecen en los mapas estándar de OSM, pero al añadirse a la base de datos de OSM, pueden usarse para desarrollar mapas o apps especializados.
 
-EveryDoor [is developed on GitHub](https://github.com/zverik/every_door) by [Ilya Zverev](https://www.openstreetmap.org/user/Zverik), a prominent OSM community member who has contributed to multiple apps and other aspects of OSM since 2010.
+EveryDoor [se desarrolla en GitHub](https://github.com/zverik/every_door) por [Ilya Zverev](https://www.openstreetmap.org/user/Zverik), 
+un miembro destacado de la comunidad OSM que ha contribuido a múltiples apps y aspectos de OSM desde 2010.
 
-Ilya was also a guest in [The Great Geo Show Episode 15 - OpenStreetMap Special](https://tv.osgeo.nl/episode/episode-0015/).
+Ilya también fue invitado en [The Great Geo Show Episodio 15 - Especial OpenStreetMap](https://tv.osgeo.nl/episode/episode-0015/).
 
-## Installation
+## Instalación
 
-[EveryDoor](https://every-door.app/) is available for Android and iOS. See the following links:
+[EveryDoor](https://every-door.app/) está disponible para Android e iOS. Consulta los siguientes enlaces:
 
 * Android: [Google Play](https://play.google.com/store/apps/details?id=info.zverev.ilya.every_door)
 * Android: [F-Droid](https://f-droid.org/packages/info.zverev.ilya.every_door/)
 * iOS: [AppStore](https://apps.apple.com/app/every-door/id1621945342)
 
-## Usage
+## Uso
 
-Using the app is mostly self-explanatory.  
-You need a working OSM account. 
-You can enter it via the menu in the top-left corner of the main screen by opening the Configuration screen. 
-At the top, you will see "OSM Account." The other settings are currently not relevant.
+El uso de la app es mayormente autoexplicativo.  
+Necesitas una cuenta OSM activa.  
+Puedes introducirla desde el menú en la esquina superior izquierda de la pantalla principal, accediendo a la pantalla de Configuración.  
+Arriba verás "Cuenta OSM". El resto de ajustes por ahora no son relevantes.
 
-There is a main screen for each activity, depending on which category of objects you want to map. There are four "Modes" in total, which you can switch between using the buttons in the bottom menu, as shown below. Additionally, you can always download data from OSM using the button on the far left. If you’ve made changes, the arrow on this button will point upwards. In that case, you can use this button to upload all your changes to OSM. It’s best to save changes and send them as a single "changeset" to OSM.
-
-<figure markdown>
-![EveryDoor: Bottom Menu](../assets/images/everydoor-bottom-menu.png){ data-title="EveryDoor: Bottom Menu" data-description="EveryDoor: Bottom Menu" }
-<figcaption>EveryDoor: Bottom Menu</figcaption>
-</figure>
-
-Once you start mapping the "Download Button" will point upward. This means there are data changes you can directly upload to OSM.
-NB: you need to do this explicitly, it does not happen by itself (like with StreetComplete).
-
-### Screen 1 - Facilities - Micromapping Mode
-
-For example, street furniture, trees, etc. Use the `+` button to add items at the location of the black marker. Shift the screen to move the black marker in place. 
+Hay una pantalla principal para cada actividad, dependiendo de la categoría de objetos que quieras mapear.  
+Hay cuatro "Modos" en total, entre los que puedes cambiar usando los botones del menú inferior, como se muestra a continuación.  
+Además, siempre puedes descargar datos de OSM con el botón en el extremo izquierdo.  
+Si has hecho cambios, la flecha de este botón apuntará hacia arriba.  
+En ese caso, puedes usarlo para subir todos tus cambios a OSM.  
+Lo mejor es guardar los cambios y enviarlos como un único "changeset".
 
 <figure markdown>
-![EveryDoor: Micromapping Screen](../assets/images/everydoor-micromapping-screen.png){ data-title="EveryDoor: Micromapping Screen" data-description="EveryDoor: Micromapping Screen" }
-<figcaption>EveryDoor: Micromapping Screen</figcaption>
+![EveryDoor: Menú inferior](../assets/images/everydoor-bottom-menu.png){ data-title="EveryDoor: Menú inferior" data-description="EveryDoor: Menú inferior" }
+<figcaption>EveryDoor: Menú inferior</figcaption>
 </figure>
 
-### Screen 2 - Shops, Restaurants, etc. - POI Mode
+Una vez que empieces a mapear, el "Botón de descarga" apuntará hacia arriba. Esto significa que hay cambios de datos que puedes subir directamente a OSM.  
+NB: debes hacerlo manualmente; no se suben automáticamente (como sí ocurre con StreetComplete).
 
-Each number on the map corresponds to a POI in the list. Use the `+` button to add items at the location of the black marker.
+### Pantalla 1 - Servicios - Modo Micromapeo
+
+Por ejemplo: mobiliario urbano, árboles, etc. Usa el botón `+` para añadir elementos en la ubicación del marcador negro.  
+Desplaza la pantalla para mover el marcador negro a la posición deseada.
 
 <figure markdown>
-![EveryDoor: Shops Screen](../assets/images/everydoor-shops-screen.png){ data-title="EveryDoor: Shops Screen" data-description="EveryDoor: Shops Screen" }
-<figcaption>EveryDoor: Shops Screen</figcaption>
+![EveryDoor: Pantalla de Micromapeo](../assets/images/everydoor-micromapping-screen.png){ data-title="EveryDoor: Pantalla de Micromapeo" data-description="EveryDoor: Pantalla de Micromapeo" }
+<figcaption>EveryDoor: Pantalla de Micromapeo</figcaption>
 </figure>
 
-### Screen 3 - Addresses and Buildings Mode
+### Pantalla 2 - Tiendas, Restaurantes, etc. - Modo POI
 
-You can edit tags for buildings and addresses. Tap on an address or building to edit it, or use the "House" button on the bottom left or the "Address" 
-button on the bottom right.  
-Use the black marker to select the address/building. This has the same effect as tapping.
+Cada número en el mapa corresponde a un POI en la lista. Usa el botón `+` para añadir elementos en la ubicación del marcador negro.
 
 <figure markdown>
-![EveryDoor: Addresses and Buildings Screen](../assets/images/everydoor-addresses-screen.png){ data-title="EveryDoor: Addresses and Buildings Screen" data-description="EveryDoor: Addresses and Buildings Screen" }
-<figcaption>EveryDoor: Addresses and Buildings Screen</figcaption>
+![EveryDoor: Pantalla de Tiendas](../assets/images/everydoor-shops-screen.png){ data-title="EveryDoor: Pantalla de Tiendas" data-description="EveryDoor: Pantalla de Tiendas" }
+<figcaption>EveryDoor: Pantalla de Tiendas</figcaption>
 </figure>
 
-### Screen 4 - Notes Mode
+### Pantalla 3 - Direcciones y Edificios
 
-Here, you can add a standard [OSM Note](https://wiki.openstreetmap.org/wiki/Notes) tied to a location.  
-Use the blue "Note" button on the bottom right to add a note at the location of the black marker.  
-This is a very powerful tool to add various indicators for yourself or others, such as errors you encounter but cannot fix in EveryDoor, or as a "reminder" for yourself to fix something later using another editor, such as iD or JOSM.  
-You can find your own notes in your profile on openstreetmap.org.
+Puedes editar etiquetas de edificios y direcciones. Toca una dirección o edificio para editarlo, o usa el botón de "Casa" abajo a la izquierda o el botón de "Dirección"  
+abajo a la derecha.  
+Usa el marcador negro para seleccionar la dirección o edificio. Esto tiene el mismo efecto que pulsar directamente.
 
 <figure markdown>
-![EveryDoor: Notes Screen](../assets/images/everydoor-notes-screen.png){ data-title="EveryDoor: Notes Screen" data-description="EveryDoor: Notes Screen" }
-<figcaption>EveryDoor: Notes Screen</figcaption>
+![EveryDoor: Pantalla de Direcciones](../assets/images/everydoor-addresses-screen.png){ data-title="EveryDoor: Pantalla de Direcciones" data-description="EveryDoor: Pantalla de Direcciones" }
+<figcaption>EveryDoor: Pantalla de Direcciones</figcaption>
 </figure>
 
-Here are some additional links that might help with using the app:
+### Pantalla 4 - Modo Notas
+
+Aquí puedes añadir una [Nota OSM](https://wiki.openstreetmap.org/wiki/Notes) estándar asociada a una ubicación.  
+Usa el botón azul de "Nota" abajo a la derecha para añadir una nota en la ubicación del marcador negro.  
+Es una herramienta muy útil para añadir observaciones para ti o para otros, como errores que encuentres y no puedas corregir desde EveryDoor, o como "recordatorio" para editarlos más tarde con otro editor como iD o JOSM.  
+Puedes encontrar tus propias notas en tu perfil en openstreetmap.org.
+
+<figure markdown>
+![EveryDoor: Pantalla de Notas](../assets/images/everydoor-notes-screen.png){ data-title="EveryDoor: Pantalla de Notas" data-description="EveryDoor: Pantalla de Notas" }
+<figcaption>EveryDoor: Pantalla de Notas</figcaption>
+</figure>
+
+Aquí tienes algunos enlaces adicionales que pueden ayudarte a usar la app:
 
 * [OSM Wiki Every_Door](https://wiki.openstreetmap.org/wiki/Every_Door)  
-* [Tutorial Session by Ilya in Tanzania - Video](https://www.youtube.com/watch?v=q7OscecqUJY)
+* [Sesión tutorial de Ilya en Tanzania - Video](https://www.youtube.com/watch?v=q7OscecqUJY)
 
-## Video Introduction by Ilya Zverev
+## Introducción en video por Ilya Zverev
 
 ![type:video](https://www.youtube.com/embed/oQao9KgC5f8)
 
-**Continue to the [Smart App StreetComplete](streetcomplete.md)!**
+**Continúa con la [Aplicación inteligente StreetComplete](streetcomplete.md)!**

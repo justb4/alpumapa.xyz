@@ -1,95 +1,97 @@
 ---
-title: Mobile Maps App - CoMaps
+title: Aplicación de Mapas Móviles - CoMaps
 ---
+
 # CoMaps
 
 ![Logo](../assets/images/comaps-logo.jpg)
 
-[CoMaps](https://www.comaps.app/) is one of the many "end-user apps" that uses 100% OpenStreetMap.
-Other similar apps you may know: Wikiloc, AllTrails, Komoot, BackCountry Navigator, Locus, 
-OSMAnd and many more also use OSM data.
+[CoMaps](https://www.comaps.app/) es una de las muchas aplicaciones para usuarios finales que utiliza 100% OpenStreetMap.  
+Otras aplicaciones similares que quizás conozcas: Wikiloc, AllTrails, Komoot, BackCountry Navigator, Locus,  
+OSMAnd y muchas más también usan datos de OSM.
 
-Beware: Waze, owned by Google, is not an OSM-based app!
+¡Atención! Waze, propiedad de Google, no está basada en OSM.
 
-In daily usage CoMaps is extremely handy to use as an outdoor (hiking, biking etc.) app. 
-Its navigation capabilities are excellent as well, even voice-powered. You can also load hiking routes (GPX files) and
-even record your own traces. 
+En el uso diario, CoMaps es extremadamente útil como aplicación de exterior (senderismo, ciclismo, etc.).  
+Sus capacidades de navegación también son excelentes, incluso con guía por voz. También puedes cargar rutas de senderismo (archivos GPX) e
+incluso grabar tus propios recorridos.
 
-*[CoMaps](https://www.comaps.app/) is a free Android & iOS offline maps app for travelers, 
-tourists, hikers, drivers and cyclists based on OpenStreetMap data created by the community. 
-It is a privacy-focused, [community-led fork of Organic Maps](https://en.wikipedia.org/wiki/CoMaps) which in turn
-is open-source fork of Maps.me app (previously known as MapsWithMe)*
+*[CoMaps](https://www.comaps.app/) es una aplicación gratuita de mapas offline para Android e iOS dirigida a viajeros, 
+turistas, senderistas, conductores y ciclistas, basada en datos de OpenStreetMap creados por la comunidad.  
+Es una bifurcación de código abierto, centrada en la privacidad y liderada por la comunidad, de Organic Maps](https://en.wikipedia.org/wiki/CoMaps), 
+que a su vez es una bifurcación de la aplicación Maps.me (antes conocida como MapsWithMe).*
 
-*CoMaps is one of the few applications that supports 100% of features without an active Internet connection. 
-Install CoMaps, download maps, throw away your SIM card, and go for a week-long trip on a single battery charge without any 
-byte received from the network.*
+*CoMaps es una de las pocas aplicaciones que admite el 100% de sus funciones sin conexión activa a Internet.  
+Instala CoMaps, descarga los mapas, apaga tu tarjeta SIM y sal de viaje durante una semana con una sola carga de batería,
+sin recibir ni un solo byte de la red.*
 
 ![Logo](../assets/images/organic-screen.jpg)
 
-## Navigation: Use case 
+## Navegación: Caso de uso
 
-Especially in rural areas, CoMaps is much more powerful. See this case of pedestrian routing
-from one 'cortijo' (EV) to another (G&T). Only CoMaps has all the info on unpaved tracks and even goat paths to create
-the most efficient route.
+Especialmente en zonas rurales, CoMaps es mucho más potente. Mira este caso de enrutamiento peatonal
+de un cortijo (EV) a otro (G&T). Solo CoMaps tiene toda la información sobre caminos sin pavimentar e incluso senderos de cabras para crear
+la ruta más eficiente.
 
 ![Logo](../assets/images/comaps-routing.jpg)
 
-## Installation
+## Instalación
 
-See [CoMaps website](https://www.comaps.app/). 
+Consulta el [sitio web de CoMaps](https://www.comaps.app/).
 
-## Usage
+## Uso
 
-* Best is to install while you are on a WIFI or have ample mobile data
-* On first launch it will ask you to download the region you are in, e.g. Andalusia
-* From then on you can even use the app without mobile data switched on!
-* First try to orient by pushing the "location" icon at lower right of screen
-* There are many advanced options, for some people CoMaps has replaced Google Maps
+* Lo mejor es instalarla cuando tengas conexión WIFI o suficientes datos móviles.
+* En el primer inicio, te pedirá descargar la región en la que estás, por ejemplo, Andalucía.
+* A partir de ahí, ¡puedes usar la app incluso sin conexión de datos móviles!
+* Primero intenta orientarte pulsando el icono de "ubicación" en la parte inferior derecha de la pantalla.
+* Hay muchas opciones avanzadas. Para algunas personas, CoMaps ha sustituido a Google Maps.
 
-## Recording Tracks
+## Grabación de recorridos
 
-A very powerful feature is that you can record your own movements while hiking, cycling etc. 
-This is called "track recording". You can even collect your own Points of Interest, called "Bookmarks" while recording. 
-To keep your track recordings organized CoMaps has a concept of "Lists". A single List
-is basically like a "folder" in which you store your tracks and bookmarks of interest. You will find
-your Lists via the bottom menu by pressing the "star" icon. Best is to create a fresh new List before recording your track.
-Tracks and Bookmarks are always recorded in the "current List", which is the one on the top.
+Una función muy potente es que puedes grabar tus propios movimientos mientras haces senderismo, vas en bici, etc.  
+Esto se llama "grabación de recorridos". Incluso puedes recoger tus propios Puntos de Interés, llamados "Marcadores" mientras grabas.  
+Para mantener organizadas tus grabaciones, CoMaps utiliza el concepto de "Listas". Una Lista  
+es básicamente como una "carpeta" donde almacenas tus recorridos y marcadores de interés.  
+Puedes encontrar tus Listas en el menú inferior pulsando el icono de la "estrella".  
+Lo mejor es crear una nueva Lista antes de grabar tu recorrido.  
+Los Recorridos y Marcadores siempre se graban en la "Lista actual", que es la que está arriba del todo.
 
-There's a YouTube video which shows the basics of track recording and dealing with Lists.
-NB the video is using Organic Maps, but this works the same in CoMaps (as CoMaps is a fork of OM).
+Hay un video en YouTube que muestra lo básico sobre grabación de recorridos y uso de Listas.  
+NB: el video usa Organic Maps, pero funciona igual en CoMaps (ya que CoMaps es un fork de OM).
 
 ![type:video](https://www.youtube.com/embed/O7vgffhLHwE)
 
-To start/stop recording follow these steps:
+Para iniciar/detener la grabación, sigue estos pasos:
 
 ![OM Record](../assets/images/comaps-recording.jpg)
 
-* tap the menu item at the far-right on bottom
-* this brings up pop-up menu with an item that says "Record Track"
-* tap "Record Track"
-* no it will keep recording, even in the background
-* to stop recording, bring up the same pop-up menu, and it shows "Stop Recording"
-* it will as if you like to Save your track: confirm, and your track is recorded
+* toca el ítem de menú más a la derecha en la parte inferior
+* aparecerá un menú emergente con un ítem que dice "Grabar recorrido"
+* toca "Grabar recorrido"
+* ahora comenzará a grabar, incluso en segundo plano
+* para detener la grabación, abre el mismo menú emergente, y mostrará "Detener grabación"
+* preguntará si deseas guardar tu recorrido: confirma, y tu recorrido quedará grabado
 
-To export:
+Para exportar:
 
 ![OM Export](../assets/images/comaps-export.jpg)
 
-* press the "star" menu icon in the bottom
-* this will show all yout Lists
-* tap the far left menu item (three vertical dots) of your target List
-* this brings up a menu
-* select "Export GPX"
-* that brings up your phone's standard "Share" menu
-* now you can share via your favorite medium, like Dropbox, even by email, or to a local file on your phone
-* Tip: a handy way to share to yourself quickly: share via WhatsApp to yourself and then open WhatsApp in your browser on your computer/laptop
+* pulsa el icono de menú de "estrella" en la parte inferior
+* esto mostrará todas tus Listas
+* toca el ítem de menú de tres puntos verticales de la Lista que deseas exportar
+* aparecerá un menú
+* selecciona "Exportar GPX"
+* se abrirá el menú estándar de "Compartir" de tu teléfono
+* ahora puedes compartirlo por tu medio favorito: Dropbox, correo electrónico, o guardarlo en un archivo local
+* Consejo: una forma rápida de compartirlo contigo mismo es enviarlo por WhatsApp a ti mismo y luego abrir WhatsApp en el navegador en tu ordenador/portátil
 
-## Edit OSM with your GPS trace
+## Editar OSM con tu traza GPS
 
-See [section on editing OSM with GPS traces](../advanced/gps.md). This includes a video tutorial by Just!
+Consulta la [sección sobre edición de OSM con trazas GPS](../advanced/gps.md). ¡Incluye un videotutorial de Just!
 
-## More info
+## Más información
 
 * https://en.wikipedia.org/wiki/CoMaps
 
-**Continue to the [Smart App EveryDoor](everydoor.md)!**
+**Continúa con la [Aplicación inteligente EveryDoor](everydoor.md)!**
