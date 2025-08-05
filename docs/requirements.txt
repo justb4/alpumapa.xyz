@@ -2,4 +2,5 @@ mkdocs
 mkdocs-material
 mkdocs-video
 mkdocs-glightbox
+mkdocs-print-site-plugin
 mkdocs-static-i18n

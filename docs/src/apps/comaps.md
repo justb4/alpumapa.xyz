@@ -56,6 +56,7 @@ your Lists via the bottom menu by pressing the "star" icon. Best is to create a 
 Tracks and Bookmarks are always recorded in the "current List", which is the one on the top.
 
 There's a YouTube video which shows the basics of track recording and dealing with Lists.
+NB the video is using Organic Maps, but this works the same in CoMaps (as CoMaps is a fork of OM).
 
 ![type:video](https://www.youtube.com/embed/O7vgffhLHwE)
 

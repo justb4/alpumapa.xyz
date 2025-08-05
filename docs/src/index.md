@@ -24,7 +24,7 @@ via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails.
     En este taller aprenderás a usar las distintas "aplicaciones" para mapear tus alrededores.
     No se requieren conocimientos previos ni experiencia técnica.
     Después de una introducción, saldremos a mapear calles y negocios locales juntos.
-    Ven con tu teléfono inteligente. Una computadora portátil es útil, pero no es necesaria.
+    Ven con tu movil ('smartphone'). Una computadora portátil es útil, pero no es necesaria.
 
 ## When is the Workshop?
 
