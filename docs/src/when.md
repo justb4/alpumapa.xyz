@@ -22,7 +22,14 @@ Details on [OpenStreetMap Calendar](https://osmcal.org/event/3417/).
 
 ## Ayuntamiento de Válor
 
-We expect to hold this workshop again in September 2025 at 
-[Ayuntamiento de Válor](https://www.openstreetmap.org/node/5588139457), the townhall of the municipality of Válor 
-in province of Granada, Andalusia, Spain.
+This workshop will be held again in September 2025, near the [Ayuntamiento de Válor](https://www.openstreetmap.org/node/5588139457).
+
+![cuando](assets/images/workshop-flyer-valor.jpg)
+
+* When: August 6 and 9, 2025
+* Time: Morning, 10:00 AM - 1:00 PM
+* Where: Training Room (next to Valor Town Hall)
+* Instructor: Just "Justo" van den Broecke - Cuesta Viñas
+
+The municipality of Válor is in the province of Granada, Andalusia, Spain.
 
