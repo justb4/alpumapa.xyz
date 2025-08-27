@@ -24,7 +24,7 @@ Detalles en el [Calendario de OpenStreetMap](https://osmcal.org/event/3417/).
 
 ![cuando](assets/images/workshop-flyer-valor.jpg)
 
-* Cuando: 6 y 9 de agosto, 2025
+* Cuando: 6 y 9 de septiembre, 2025
 * Tiempo: a la mañana 10:00-13:00
 * Donde: Aula de Formación (al lado del Ayuntamiento de Válor)
 * Maestro: Just "Justo" van den Broecke - Cuesta Viñas
