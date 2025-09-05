@@ -10,22 +10,6 @@ via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails.
 
 ![ugijar-2025](assets/images/ugijar-2025-composite.jpg)
 
-!!! Español
-
-    Buscamos traduitores...OpenStreetMap, abreviado como "OSM", es un mapa gratuito y editable de todo el mundo creado 
-    por voluntarios. OSM a veces se denomina "La Wikipedia de los mapas". Es posible que ya utilices OSM
-    a través de alguna de las muchas "aplicaciones" como Komoot, Wikiloc o AllTrails.
-    
-    OSM es importante para regiones como la Alpujarra, ya que puede proporcionar muchos más detalles que, por ejemplo, 
-    Google Maps. OSM puede empoderar a las comunidades, ya que pueden mapear sus alrededores en lugar de depender
-    de proveedores de mapas comerciales. También en casos de desastres como el reciente DANA en Valencia, es importante
-    tener mapas precisos y/o poder mapear rápidamente la región juntos.
-    
-    En este taller aprenderás a usar las distintas "aplicaciones" para mapear tus alrededores.
-    No se requieren conocimientos previos ni experiencia técnica.
-    Después de una introducción, saldremos a mapear calles y negocios locales juntos.
-    Ven con tu movil ('smartphone'). Una computadora portátil es útil, pero no es necesaria.
-
 ## When is the Workshop?
 
 For now on demand. See ['when' section](when.md)
