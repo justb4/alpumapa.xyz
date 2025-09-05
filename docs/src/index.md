@@ -8,7 +8,10 @@ title: OpenStreetMap Workshop
 OSM is sometimes called "The Wikipedia of Maps". You may already use OSM
 via one of the many "apps" like Komoot, Strava, Wikiloc or AllTrails. 
 
+Por español: [vas aqui](index.es.md).
+
 ![ugijar-2025](assets/images/ugijar-2025-composite.jpg)
+
 
 ## When is the Workshop?
 
