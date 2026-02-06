@@ -5,6 +5,15 @@ title: When?
 # When is the Workshop?
 For now on demand. Info/contact: osm@justobjects.nl. Latest editions first:
 
+## Válor - Spain - Feb 8, 2026
+
+Workshop how to install and use the [OpenStreetMap CoMaps mobile app](https://www.comaps.app/).
+
+* Where: [Bar El Suizo](https://www.openstreetmap.org/?mlat=36.996351&mlon=-3.085109#map=19/36.996351/-3.085109&layers=N).
+* Time: 10:30 AM - 1:00 PM
+
+The municipality of Válor is in the province of Granada, Andalusia, Spain.
+
 ## Maptime Amsterdam - Oct 3, 2025
 
 [Fri, Oct 3 Maptime Amsterdam: Map & Meet](https://www.meetup.com/maptime-ams/events/310744695)
