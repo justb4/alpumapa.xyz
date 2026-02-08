@@ -91,5 +91,6 @@ See [section on editing OSM with GPS traces](../advanced/gps.md). This includes 
 ## More info
 
 * https://en.wikipedia.org/wiki/CoMaps
+* [CoMaps Workshop slides in PDF](../assets/presentations/comaps-workshop.pdf).
 
 **Continue to the [Smart App EveryDoor](everydoor.md)!**

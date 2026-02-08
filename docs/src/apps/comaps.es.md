@@ -88,10 +88,11 @@ Para exportar:
 
 ## Editar OSM con tu traza GPS
 
-Consulta la [sección sobre edición de OSM con trazas GPS](../advanced/gps.md). ¡Incluye un videotutorial de Just!
+Consulta la [sección sobre edición de OSM con trazas GPS](../advanced/gps.md). ¡Incluye un videotutorial de Justo!
 
 ## Más información
 
 * https://en.wikipedia.org/wiki/CoMaps
+* [CoMaps Taller - PDF](../assets/presentations/comaps-workshop.pdf).
 
 **Continúa con la [Aplicación inteligente EveryDoor](everydoor.md)!**
