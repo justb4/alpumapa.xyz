@@ -1,0 +1,1041 @@
+<!DOCTYPE html><html lang="es" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This site contains material for an OpenStreetMap Workshop">
+      
+      
+        <meta name="author" content="Just van den Broecke Casper Kersten (original)">
+      
+      
+        <link rel="canonical" href="https://alpumapa.xyz/es/apps/everydoor/">
+      
+      
+        <link rel="prev" href="../comaps/">
+      
+      
+        <link rel="next" href="../streetcomplete/">
+      
+      
+        
+          <link rel="alternate" href="../../../apps/everydoor/" hreflang="en">
+        
+          <link rel="alternate" href="./" hreflang="es">
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>App - EveryDoor - OSM Workshop</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../../../css/print-site.css">
+    
+      <link rel="stylesheet" href="../../../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/termynal.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#aplicacion-everydoor" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../" title="OSM Workshop" class="md-header__button md-logo" aria-label="OSM Workshop" data-md-component="logo">
+      
+  <img src="../../../assets/images/osmes-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            OSM Workshop
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              App - EveryDoor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Seleccionar idioma">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../../../apps/everydoor/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="es" class="md-select__link">
+              Español
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/justb4/alpumapa.xyz" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../" title="OSM Workshop" class="md-nav__button md-logo" aria-label="OSM Workshop" data-md-component="logo">
+      
+  <img src="../../../assets/images/osmes-logo.png" alt="logo">
+
+    </a>
+    OSM Workshop
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/justb4/alpumapa.xyz" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introducción
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../when/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cuando
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../comaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CoMaps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EveryDoor App
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EveryDoor App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instalación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-1-servicios-modo-micromapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 1 - Servicios - Modo Micromapeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-2-tiendas-restaurantes-etc-modo-poi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 2 - Tiendas, Restaurantes, etc. - Modo POI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-3-direcciones-y-edificios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 3 - Direcciones y Edificios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-4-modo-notas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 4 - Modo Notas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion-en-video-por-ilya-zverev" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introducción en video por Ilya Zverev
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../streetcomplete/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    StreetComplete App
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Avanzado
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Avanzado
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../advanced/gps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rastros GPS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../advanced/overpass-api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OverPass API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../advanced/qgis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QGIS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../advanced/josm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JOSM Editor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instalación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Uso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-1-servicios-modo-micromapeo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 1 - Servicios - Modo Micromapeo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-2-tiendas-restaurantes-etc-modo-poi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 2 - Tiendas, Restaurantes, etc. - Modo POI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-3-direcciones-y-edificios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 3 - Direcciones y Edificios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pantalla-4-modo-notas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pantalla 4 - Modo Notas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion-en-video-por-ilya-zverev" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introducción en video por Ilya Zverev
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<div><h1 id="aplicacion-everydoor">Aplicación EveryDoor</h1>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../assets/images/everydoor-logo.png" data-desc-position="bottom"><img alt="Logo" src="../../../assets/images/everydoor-logo.png"></a></p>
+<p><a href="https://every-door.app/">EveryDoor</a> es un editor móvil de código abierto diseñado para añadir o modificar "Puntos de Interés" (POIs), 
+como tiendas y otros servicios ("amenities"), así como números de calle, de una manera muy fácil de usar para OpenStreetMap.</p>
+<p>Esta aplicación está especialmente pensada para ayudar a los usuarios a mantener actualizados los servicios ("amenities") y tiendas, 
+y para realizar el llamado "micro-mapeo". Esto incluye detalles como árboles, paneles informativos, papeleras e hidrantes.<br>
+No todos estos objetos aparecen en los mapas estándar de OSM, pero al añadirse a la base de datos de OSM, pueden usarse para desarrollar mapas o apps especializados.</p>
+<p>EveryDoor <a href="https://github.com/zverik/every_door">se desarrolla en GitHub</a> por <a href="https://www.openstreetmap.org/user/Zverik">Ilya Zverev</a>, 
+un miembro destacado de la comunidad OSM que ha contribuido a múltiples apps y aspectos de OSM desde 2010.</p>
+<p>Ilya también fue invitado en <a href="https://tv.osgeo.nl/episode/episode-0015/">The Great Geo Show Episodio 15 - Especial OpenStreetMap</a>.</p>
+<h2 id="instalacion">Instalación</h2>
+<p><a href="https://every-door.app/">EveryDoor</a> está disponible para Android e iOS. Consulta los siguientes enlaces:</p>
+<ul>
+<li>Android: <a href="https://play.google.com/store/apps/details?id=info.zverev.ilya.every_door">Google Play</a></li>
+<li>Android: <a href="https://f-droid.org/packages/info.zverev.ilya.every_door/">F-Droid</a></li>
+<li>iOS: <a href="https://apps.apple.com/app/every-door/id1621945342">AppStore</a></li>
+</ul>
+<h2 id="uso">Uso</h2>
+<p>El uso de la app es mayormente autoexplicativo.<br>
+Necesitas una cuenta OSM activa.<br>
+Puedes introducirla desde el menú en la esquina superior izquierda de la pantalla principal, accediendo a la pantalla de Configuración.<br>
+Arriba verás "Cuenta OSM". El resto de ajustes por ahora no son relevantes.</p>
+<p>Hay una pantalla principal para cada actividad, dependiendo de la categoría de objetos que quieras mapear.<br>
+Hay cuatro "Modos" en total, entre los que puedes cambiar usando los botones del menú inferior, como se muestra a continuación.<br>
+Además, siempre puedes descargar datos de OSM con el botón en el extremo izquierdo.<br>
+Si has hecho cambios, la flecha de este botón apuntará hacia arriba.<br>
+En ese caso, puedes usarlo para subir todos tus cambios a OSM.<br>
+Lo mejor es guardar los cambios y enviarlos como un único "changeset".</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../assets/images/everydoor-bottom-menu.png" data-title="EveryDoor: Menú inferior" data-description="EveryDoor: Menú inferior" data-desc-position="bottom"><img alt="EveryDoor: Menú inferior" data-description="EveryDoor: Menú inferior" data-title="EveryDoor: Menú inferior" src="../../../assets/images/everydoor-bottom-menu.png"></a></p>
+<figcaption>EveryDoor: Menú inferior</figcaption>
+</figure>
+<p>Una vez que empieces a mapear, el "Botón de descarga" apuntará hacia arriba. Esto significa que hay cambios de datos que puedes subir directamente a OSM.<br>
+NB: debes hacerlo manualmente; no se suben automáticamente (como sí ocurre con StreetComplete).</p>
+<h3 id="pantalla-1-servicios-modo-micromapeo">Pantalla 1 - Servicios - Modo Micromapeo</h3>
+<p>Por ejemplo: mobiliario urbano, árboles, etc. Usa el botón <code>+</code> para añadir elementos en la ubicación del marcador negro.<br>
+Desplaza la pantalla para mover el marcador negro a la posición deseada.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../assets/images/everydoor-micromapping-screen.png" data-title="EveryDoor: Pantalla de Micromapeo" data-description="EveryDoor: Pantalla de Micromapeo" data-desc-position="bottom"><img alt="EveryDoor: Pantalla de Micromapeo" data-description="EveryDoor: Pantalla de Micromapeo" data-title="EveryDoor: Pantalla de Micromapeo" src="../../../assets/images/everydoor-micromapping-screen.png"></a></p>
+<figcaption>EveryDoor: Pantalla de Micromapeo</figcaption>
+</figure>
+<h3 id="pantalla-2-tiendas-restaurantes-etc-modo-poi">Pantalla 2 - Tiendas, Restaurantes, etc. - Modo POI</h3>
+<p>Cada número en el mapa corresponde a un POI en la lista. Usa el botón <code>+</code> para añadir elementos en la ubicación del marcador negro.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../assets/images/everydoor-shops-screen.png" data-title="EveryDoor: Pantalla de Tiendas" data-description="EveryDoor: Pantalla de Tiendas" data-desc-position="bottom"><img alt="EveryDoor: Pantalla de Tiendas" data-description="EveryDoor: Pantalla de Tiendas" data-title="EveryDoor: Pantalla de Tiendas" src="../../../assets/images/everydoor-shops-screen.png"></a></p>
+<figcaption>EveryDoor: Pantalla de Tiendas</figcaption>
+</figure>
+<h3 id="pantalla-3-direcciones-y-edificios">Pantalla 3 - Direcciones y Edificios</h3>
+<p>Puedes editar etiquetas de edificios y direcciones. Toca una dirección o edificio para editarlo, o usa el botón de "Casa" abajo a la izquierda o el botón de "Dirección"<br>
+abajo a la derecha.<br>
+Usa el marcador negro para seleccionar la dirección o edificio. Esto tiene el mismo efecto que pulsar directamente.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../assets/images/everydoor-addresses-screen.png" data-title="EveryDoor: Pantalla de Direcciones" data-description="EveryDoor: Pantalla de Direcciones" data-desc-position="bottom"><img alt="EveryDoor: Pantalla de Direcciones" data-description="EveryDoor: Pantalla de Direcciones" data-title="EveryDoor: Pantalla de Direcciones" src="../../../assets/images/everydoor-addresses-screen.png"></a></p>
+<figcaption>EveryDoor: Pantalla de Direcciones</figcaption>
+</figure>
+<h3 id="pantalla-4-modo-notas">Pantalla 4 - Modo Notas</h3>
+<p>Aquí puedes añadir una <a href="https://wiki.openstreetmap.org/wiki/Notes">Nota OSM</a> estándar asociada a una ubicación.<br>
+Usa el botón azul de "Nota" abajo a la derecha para añadir una nota en la ubicación del marcador negro.<br>
+Es una herramienta muy útil para añadir observaciones para ti o para otros, como errores que encuentres y no puedas corregir desde EveryDoor, o como "recordatorio" para editarlos más tarde con otro editor como iD o JOSM.<br>
+Puedes encontrar tus propias notas en tu perfil en openstreetmap.org.</p>
+<figure>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../assets/images/everydoor-notes-screen.png" data-title="EveryDoor: Pantalla de Notas" data-description="EveryDoor: Pantalla de Notas" data-desc-position="bottom"><img alt="EveryDoor: Pantalla de Notas" data-description="EveryDoor: Pantalla de Notas" data-title="EveryDoor: Pantalla de Notas" src="../../../assets/images/everydoor-notes-screen.png"></a></p>
+<figcaption>EveryDoor: Pantalla de Notas</figcaption>
+</figure>
+<p>Aquí tienes algunos enlaces adicionales que pueden ayudarte a usar la app:</p>
+<ul>
+<li><a href="https://wiki.openstreetmap.org/wiki/Every_Door">OSM Wiki Every_Door</a>  </li>
+<li><a href="https://www.youtube.com/watch?v=q7OscecqUJY">Sesión tutorial de Ilya en Tanzania - Video</a></li>
+</ul>
+<h2 id="introduccion-en-video-por-ilya-zverev">Introducción en video por Ilya Zverev</h2>
+<p></p><div class="video-container"><iframe src="https://www.youtube.com/embed/oQao9KgC5f8" style="position:relative;width:100%;height:22.172vw" frameborder="0" allowfullscreen alt="type:video"></iframe></div><p></p>
+<p><strong>Continúa con la <a href="../streetcomplete/">Aplicación inteligente StreetComplete</a>!</strong></p></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2025 osgeo.nl and Just van den Broecke
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../../js/print-site.js"></script>
+      
+        <script src="../../../js/print-site.js"></script>
+      
+        <script src="../../../assets/javascripts/termynal.js"></script>
+      
+        <script src="../../../assets/javascripts/custom.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
