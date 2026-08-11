@@ -119,5 +119,6 @@ Lo revisaremos al volver del ejercicio.
 
 * [Wiki de OSM](https://wiki.openstreetmap.org/)  
 * [Empieza con OSM en LearnOSM](https://learnosm.org/en/beginner/start-osm/) (la versión en inglés está ligeramente más actualizada)
+* [Recursos libres y cartografía colaborativa](https://escritura.social/luiseme/recursos-libres-y-cartografia-colaborativa) 
 
 **Continúa con [CoMaps](apps/comaps.md)!**

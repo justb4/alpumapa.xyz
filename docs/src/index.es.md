@@ -8,6 +8,11 @@ title: Taller de OpenStreetMap
 OSM a veces se denomina "La Wikipedia de los mapas". Es posible que ya utilices OSM
 a través de alguna de las muchas "aplicaciones" como Komoot, Strava, Wikiloc o AllTrails.
 
+
+!!! tip
+
+    Un buen introducción a OSM: [Recursos libres y cartografía colaborativa](https://escritura.social/luiseme/recursos-libres-y-cartografia-colaborativa) de [luiseme](https://escritura.social/luiseme/contacto).  
+
 ![ugijar-2025](assets/images/ugijar-2025-composite.jpg)
 
 ## ¿Cuándo es el taller?
